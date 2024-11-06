@@ -13,5 +13,13 @@ describe('String Calculator',()=>{
         expect(add("5,2")).toBe(7);
     });
 
-    
+    test('should return the sum of multiple comma seperated numbers',()=>{
+        expect(add("5,2,3,3")).toBe(13);
+    });
+    test('should support different delimiters',()=>{
+        expect(add("//;\n1;2")).toBe(3);
+        expect(add("//|\n4|5|6")).toBe(15);
+
+    });
+  
 });
