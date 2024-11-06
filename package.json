@@ -1,0 +1,23 @@
+{
+  "name": "assesment",
+  "version": "1.0.0",
+  "description": "",
+  "main": "stringCalculator.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Shivam431/incubyte-assessment.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Shivam431/incubyte-assessment/issues"
+  },
+  "homepage": "https://github.com/Shivam431/incubyte-assessment#readme",
+  "devDependencies": {
+    "jest": "^29.7.0"
+  }
+}
