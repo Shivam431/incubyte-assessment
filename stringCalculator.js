@@ -24,6 +24,13 @@ function add(numbers){
     //split inputs by commas, then convert string into number using map(Number)
     const numberArray= numbers.split(new RegExp(`[${delimiter},]`)).map(Number);
 
+    //handle negative input
+    const negativeNumber= numberArray.filter(num => num < 0);
+
+    if(negativeNumber.length > 0){
+        throw new Error(`negative numbers not allowed: ${negativeNumber.join(", ")}`);
+    }
+
     //return sum of the array.
     return numberArray.reduce((sum, num)=>sum+num,0);
 }
