@@ -4,6 +4,8 @@
 <hr>
 <p>String Calculator using TDD</p>
 
+<h1>Screenshots of the output is added in the image folder </h1>
+
 <h2>Steps to run the Project</h2>
 
 <ul>
