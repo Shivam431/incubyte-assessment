@@ -16,10 +16,10 @@ function add(numbers){
     if(customDelimiter){
         delimiter = customDelimiter[1];
 
-        console.log(delimiter);
+        //console.log(delimiter);
         numbers = numbers.split("\n")[1];
 
-        console.log(numbers);
+        //console.log(numbers);
     }
     //split inputs by commas, then convert string into number using map(Number)
     const numberArray= numbers.split(new RegExp(`[${delimiter},]`)).map(Number);

@@ -11,5 +11,11 @@
 <li>navigate to the project directory</li>
 <li>npm install</li>
 <li>add jest under script in package.json (if not added)</li>
+![Alt text](images/jest.Jpg)
 <li>run <b>"npm test"</b> to execute test</li>
 </ul>
+
+<hr>
+
+<h2>Output Screenshot</h2>
+![Alt text](images/testCase.JPG)
